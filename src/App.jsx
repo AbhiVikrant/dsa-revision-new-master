@@ -1,7 +1,8 @@
+import "./index.css";
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <h1 className="bg-slate-800 text-red-500">Hello</h1>
     </>
   );
 }
