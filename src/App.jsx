@@ -1,8 +1,13 @@
 import "./index.css";
+import Header from "./components/Header";
+import IntroSection from "./components/IntroSection";
 function App() {
   return (
     <>
-      <h1 className="bg-slate-800 text-red-500">Hello</h1>
+      <div className=" flex  flex-col justify-between bg-slate-100 min-h-screen px-3 py-5">
+        <Header />
+        <IntroSection />
+      </div>
     </>
   );
 }
