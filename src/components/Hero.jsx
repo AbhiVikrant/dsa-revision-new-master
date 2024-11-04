@@ -25,7 +25,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative  mx-auto  border-l-4 border-yellow-500">
+    <div className="relative  mx-auto  border-l-4 border-yellow-500 min-w-full">
       <div className="overflow-hidden shadow-lg">
         <div
           className="flex transition-transform duration-500"

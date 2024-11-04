@@ -18,7 +18,7 @@ const IntroSection = () => {
         <div className="  gumroad flex justify-center items-center text-center bg-slate-950 text-white border-solid border-8 border-black rounded-md font-lato px-2 py-3 mt-8 hover:bg-purple-btn hover:border-purple-btn hover:ease-out hover:transition-transform hover:-translate-x-1 hover:-translate-y-1 hover:shadow-lg hover:shadow-black hover:text-black active:bg-red-btn active:border-red-btn ">
           <button>Buy FREE through Gumroad</button>
         </div>
-        <div className=" hero gap-2 flex flex-col mt-10 ">
+        <div className=" hero gap-2 block mt-10  ">
           <Hero />
         </div>
         <div className="book-cover-holder gap-2 flex flex-col mt-10 relative">
