@@ -12,7 +12,8 @@ module.exports = {
         "purple-btn": "rgb(255 144 232)",
         "red-btn": "#ff5252",
         "green-light": "#5cb377",
-        "text-white": "#fff"
+        "text-white": "#fff",
+        "color-text": "#1c1e2e"
       }
     }
   },
