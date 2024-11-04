@@ -4,7 +4,7 @@ import IntroSection from "./components/IntroSection";
 function App() {
   return (
     <>
-      <div className=" flex  flex-col justify-between bg-slate-100 min-h-screen px-3 py-5">
+      <div className=" flex flex-col bg-slate-100 min-h-screen px-3 py-5 gap-12">
         <Header />
         <IntroSection />
       </div>

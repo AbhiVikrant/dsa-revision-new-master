@@ -1,7 +1,26 @@
 import React from "react";
 
 const IntroSection = () => {
-  return <div>IntroSection</div>;
+  return (
+    <>
+      <div className="mainDiv">
+        <div className="introStart gap-2 flex flex-col">
+          <h1 className="font-lato font-bold text-4xl  justify-between leading-tight">
+            Best way to revise for your next coding interview
+          </h1>
+          <p className="font-playfair text-gray-500 text-xl font-light leading-tight justify-between gap-2 flex flex-col">
+            Get everything in a single guide: Data structures, algorithms,
+            patterns, visualizers, questions, examples, solutions, explanations,
+            and much more!
+          </p>
+        </div>
+
+        <div className=" flex justify-center items-center text-center bg-slate-950 text-white border-solid border-8 border-black rounded-md font-lato px-2 py-3 mt-8 hover:bg-purple-btn hover:border-purple-btn hover:ease-out hover:transition-transform hover:-translate-x-1 hover:-translate-y-1 hover:shadow-lg hover:shadow-black hover:text-black active:bg-red-btn active:border-red-btn ">
+          <button>Buy FREE through Gumroad</button>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default IntroSection;
