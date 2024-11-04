@@ -5,11 +5,14 @@ module.exports = {
     extend: {
       fontFamily: {
         playfair: "'Playfair Display', serif",
-        lato: "'Lato', sans-serif"
+        lato: "'Lato', sans-serif",
+        Quicksand: "' Quicksand', sans-serif"
       },
       colors: {
         "purple-btn": "rgb(255 144 232)",
-        "red-btn": "#ff5252"
+        "red-btn": "#ff5252",
+        "green-light": "#5cb377",
+        "text-white": "#fff"
       }
     }
   },
