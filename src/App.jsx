@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import IntroSection from "./components/IntroSection";
 import ContentSection from "./components/ContentSection";
 import Review from "./components/Review";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         <IntroSection />
         <ContentSection />
         <Review />
+        <Footer />
       </div>
     </>
   );
