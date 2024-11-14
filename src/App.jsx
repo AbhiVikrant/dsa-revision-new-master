@@ -2,6 +2,7 @@ import "./index.css";
 import Header from "./components/Header";
 import IntroSection from "./components/IntroSection";
 import ContentSection from "./components/ContentSection";
+import Review from "./components/Review";
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <IntroSection />
         <ContentSection />
+        <Review />
       </div>
     </>
   );
